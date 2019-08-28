@@ -12,6 +12,19 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-inverse navbar-expand-lg bg-inverse">
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="<%= pages_one_path %>">One <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<%= pages_two_path %>">Two</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<%= pages_three_path %>">Three</a>
+            </li>
+    </nav>
     <%= yield %>
   </body>
 </html>
